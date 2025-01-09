@@ -21,7 +21,7 @@ This package complements existing Python libraries by offering a targeted collec
 Related Packages:
 	•	SymPy: Provides symbolic mathematics capabilities, including some number theory functions, but lacks optimization for computational challenges.
 	•	NumPy: A general-purpose library for numerical computations, but it doesn’t specialize in number theory.
-	•	primesieve: A highly efficient library for prime generation, which this package leverages for some functionality.
+	•	primesieve: A highly efficient library for prime generation. This package provides similar functionalities.
 
 This package stands out by providing a tailored set of tools focused on number theory operations relevant to Project Euler, filling a niche not covered by more general-purpose libraries.
 
