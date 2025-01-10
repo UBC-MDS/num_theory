@@ -1,28 +1,51 @@
-# Number Theory Utilities
+# num_theory
 
-This package provides essential number theory utilities to simplify solving problems from Project Euler and similar computational challenges. It includes functions for prime generation, prime factorization, and working with arithmetic progressions. The utilities are implemented for efficiency and ease of use, making this package a valuable tool for mathematics and competitive programming enthusiasts.
+Implements different number theory functions
 
-Features
+## Installation
 
-Below are the core functions included in this package:
-	•	get_prime_list_under_n(n):
-Generates all prime numbers less than ￼ using an efficient algorithm. Useful for operations requiring precomputed prime numbers.
-	•	generate_prime_fatorization(n):
-Computes the prime factorization of a number ￼, returning a list of tuples where each tuple contains a prime factor and its power.
-	•	arithmetic_progression(a, d, n):
-Generates the first ￼ terms of an arithmetic progression, given the starting term ￼ and the common difference ￼.
-	•	is_prime(n):
-Checks if a number ￼ is prime using a streamlined algorithm optimized for computational challenges.
+```bash
+$ pip install num_theory
+```
 
-Relevance in the Python Ecosystem
+## Usage
+
+This package provides a set of basic number theory utilities that ease the solution of Project Euler and other computational problems. It includes prime generation, prime factorization, and arithmetic progression handling. The utilities herein are implemented for efficiency, having ease of use in mind. This makes the package very useful for both mathematicians and competitive programmers.
+
+### The following functions have been implemented in this package.
+
+get_prime_list_under_n(n): Generates all prime numbers less than n using an efficient algorithm. Useful for operations requiring precomputed prime numbers.
+
+generate_prime_fatorization(n): Computes the prime factorization of a number, returning a list of tuples where each tuple contains a prime factor and its power.
+
+arithmetic_progression(a, d, n, compute_sum=False, nth_term=False): Generate terms of an arithmetic progression (AP), compute the nth term, or calculate the sum of the first n terms.
+
+is_prime(n): Checks if a number is prime using a streamlined algorithm optimized for computational challenges.
+
+### Relevance in the Python Ecosystem
 
 This package complements existing Python libraries by offering a targeted collection of number theory utilities specifically for solving Project Euler problems.
 
 Related Packages:
-	•	SymPy: Provides symbolic mathematics capabilities, including some number theory functions, but lacks optimization for computational challenges.
-	•	NumPy: A general-purpose library for numerical computations, but it doesn’t specialize in number theory.
-	•	primesieve: A highly efficient library for prime generation, which this package leverages for some functionality.
+• SymPy: This does provide some symbolic mathematics, including some number theory, but isn't optimized for the computational challenges of advanced number theory.
+• NumPy: The general-purpose library for numerical computations, but not specialized in number theory.
+• primesieve: a very fast library to generate primes, and this package uses that for some functionality.
 
-This package stands out by providing a tailored set of tools focused on number theory operations relevant to Project Euler, filling a niche not covered by more general-purpose libraries.
+## Contributors
 
-If you need further assistance, such as implementing arithmetic_progression or refining the README.md, let me know!
+1. Calista Chen
+2. Dhruv Garg
+3. Dominic Lam
+4. Thamer Aldawood
+
+## Contributing
+
+Interested in contributing? Check out the contributing guidelines. Please note that this project is released with a Code of Conduct. By contributing to this project, you agree to abide by its terms.
+
+## License
+
+`num_theory` was created by Calista Chen, Dhruv Garg, Dominic Lam, Thamer Aldawood. It is licensed under the terms of the MIT license.
+
+## Credits
+
+`num_theory` was created with [`cookiecutter`](https://cookiecutter.readthedocs.io/en/latest/) and the `py-pkgs-cookiecutter` [template](https://github.com/py-pkgs/py-pkgs-cookiecutter).
