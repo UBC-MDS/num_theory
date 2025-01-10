@@ -1,16 +1,24 @@
 def get_primes(n: int) -> list:
     '''
-    This function takes an integer n and returns the list of all primes under n.
+    Returns the list of all prime numbers less than or equal to n.
 
-    Input:
-    integer n. 
+    Parameters
+    -----------
+    n: int. 
 
-    Output:
-    List of integers containing prime numbers under n.
+    Returns
+    -----------
+    list (containing integers) 
+               
+    Examples
+    -----------
+    >>> get_primes(14)
+    [2, 5, 7, 11, 13]
 
-    Example:
-    get_primes(14) -> [2, 5, 7, 11, 13]
+    >>> get_primes(5)
+    [2, 5]
 
-    #primesieve already does this
+    >>> get_primes(-2)
+    []
     '''
     pass
