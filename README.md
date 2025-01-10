@@ -1,6 +1,6 @@
-# num_theory
+# Number Theory
 
-Implements different number theory functions
+This package provides a set of basic number theory utilities that ease the solution of Project Euler and other computational problems. It includes prime generation, prime factorization, and arithmetic progression handling. The utilities herein are implemented for efficiency, having ease of use in mind. This makes the package very useful for both mathematicians and competitive programmers.
 
 ## Installation
 
@@ -9,10 +9,6 @@ $ pip install num_theory
 ```
 
 ## Usage
-
-This package provides a set of basic number theory utilities that ease the solution of Project Euler and other computational problems. It includes prime generation, prime factorization, and arithmetic progression handling. The utilities herein are implemented for efficiency, having ease of use in mind. This makes the package very useful for both mathematicians and competitive programmers.
-
-### The following functions have been implemented in this package.
 
 get_prime_list_under_n(n): Generates all prime numbers less than n using an efficient algorithm. Useful for operations requiring precomputed prime numbers.
 
