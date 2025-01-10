@@ -27,9 +27,12 @@ is_prime(n): Checks if a number is prime using a streamlined algorithm optimized
 This package complements existing Python libraries by offering a targeted collection of number theory utilities specifically for solving Project Euler problems.
 
 Related Packages:
+
 • SymPy: This does provide some symbolic mathematics, including some number theory, but isn't optimized for the computational challenges of advanced number theory.
+
 • NumPy: The general-purpose library for numerical computations, but not specialized in number theory.
-• primesieve: a very fast library to generate primes, and this package uses that for some functionality.
+
+• primesieve: A highly efficient library for prime generation. This package provides similar functionalities.
 
 ## Contributors
 
@@ -46,6 +49,8 @@ Interested in contributing? Check out the contributing guidelines. Please note t
 
 `num_theory` was created by Calista Chen, Dhruv Garg, Dominic Lam, Thamer Aldawood. It is licensed under the terms of the MIT license.
 
+
 ## Credits
 
 `num_theory` was created with [`cookiecutter`](https://cookiecutter.readthedocs.io/en/latest/) and the `py-pkgs-cookiecutter` [template](https://github.com/py-pkgs/py-pkgs-cookiecutter).
+
