@@ -11,7 +11,6 @@ def get_primes(n: int) -> list:
     Example:
     get_primes(14) -> [2, 5, 7, 11, 13]
 
-#primesieve already does this
+    #primesieve already does this
     '''
     pass
-    
