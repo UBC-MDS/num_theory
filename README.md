@@ -12,7 +12,7 @@ $ pip install num_theory
 
 get_prime_list_under_n(n): Generates all prime numbers less than n using an efficient algorithm. Useful for operations requiring precomputed prime numbers.
 
-generate_prime_fatorization(n): Computes the prime factorization of a number, returning a list of tuples where each tuple contains a prime factor and its power.
+prime_factorization(n): Computes the prime factorization of a number, returning a list of tuples where each tuple contains a prime factor and its power.
 
 arithmetic_progression(a, d, n, compute_sum=False, nth_term=False): Generate terms of an arithmetic progression (AP), compute the nth term, or calculate the sum of the first n terms.
 
