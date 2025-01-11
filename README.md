@@ -32,7 +32,7 @@ Related Packages:
 
 ## Contributors
 
-1. Calista Chen
+1. Tingting Chen
 2. Dhruv Garg
 3. Dominic Lam
 4. Thamer Aldawood
@@ -43,7 +43,7 @@ Interested in contributing? Check out the contributing guidelines. Please note t
 
 ## License
 
-`num_theory` was created by Calista Chen, Dhruv Garg, Dominic Lam, Thamer Aldawood. It is licensed under the terms of the MIT license.
+`num_theory` was created by Tingting Chen, Dhruv Garg, Dominic Lam, Thamer Aldawood. It is licensed under the terms of the MIT license.
 
 
 ## Credits
