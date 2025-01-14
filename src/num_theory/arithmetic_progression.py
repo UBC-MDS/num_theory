@@ -36,4 +36,18 @@ def arithmetic_progression(a, d, n, compute_sum=False, nth_term=False):
     >>> arithmetic_progression(a=2, d=3, n=5, nth_term=True)
     14
     """
-    pass
+    if n <= 0:
+        raise ValueError("The number of terms 'n' must be a positive integer.")
+
+    if nth_term:
+        # Compute the nth term
+        term = a + (n - 1) * d
+        return term
+    elif compute_sum:
+        # Calculate the sum of the first n terms
+        sum_n = (n / 2) * (2 * a + (n - 1) * d)
+        return sum_n
+    else:
+        # Generate the terms of the AP
+        ap_terms = [a + i * d for i in range(n)]
+        return ap_terms
