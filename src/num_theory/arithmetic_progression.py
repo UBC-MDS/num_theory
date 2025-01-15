@@ -21,6 +21,7 @@ def arithmetic_progression(a, d, n, compute_sum=False, nth_term=False):
         - If `compute_sum` and `nth_term` are both False, returns a list of the first n terms of the AP.
         - If `nth_term` is True, returns the nth term as a float.
         - If `compute_sum` is True, returns the sum of the first n terms as a float.
+        - If both `nth_term` and `compute_sum` is True, it will return the nth term as a float.
 
     Examples
     --------
@@ -35,6 +36,9 @@ def arithmetic_progression(a, d, n, compute_sum=False, nth_term=False):
     Find the 5th term of the AP:
     >>> arithmetic_progression(a=2, d=3, n=5, nth_term=True)
     14
+
+    >>> arithmetic_progression(a=1, d=2, n=5, nth_term=True)
+    9
     """
     if n <= 0:
         raise ValueError("The number of terms 'n' must be a positive integer.")
