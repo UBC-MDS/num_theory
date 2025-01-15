@@ -42,7 +42,16 @@ def arithmetic_progression(a, d, n, compute_sum=False, nth_term=False):
     """
     if n <= 0:
         raise ValueError("The number of terms 'n' must be a positive integer.")
+    
+    if not isinstance(n, (int)):
+        raise TypeError("Input n must be a int value.")
+    
+    if not isinstance(a, (int, float)):
+        raise TypeError("Input a must be a numeric value (int or float).")
 
+    if not isinstance(d, (int, float)):
+        raise TypeError("Input d must be a numeric value (int or float).")
+    
     if nth_term:
         # Compute the nth term
         term = a + (n - 1) * d
