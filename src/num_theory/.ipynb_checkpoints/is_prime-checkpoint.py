@@ -28,9 +28,9 @@ def is_prime(n):
     """
     # Input validation
     if not isinstance(n, int):
-        raise ValueError(\"Input must be an integer.\")
+        raise ValueError("Input must be an integer.")
     if n <= 1:
-        raise ValueError(\"Input must be a positive integer greater than 1.\")
+        raise ValueError("Input must be a positive integer greater than 1.")
 
     # Check primality
     if n == 2:
