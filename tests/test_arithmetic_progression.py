@@ -41,17 +41,42 @@ def test_zero_terms():
 #     except ValueError as e:
 #         assert str(e) == "The number of terms 'n' must be a positive integer."
 
-def test_a_not_numeric():
+@pytest.mark.parametrize(
+    "a",
+    [
+        [2,4,5],
+        {3,4},
+        {'key':'val'} 
+    ]
+)
+def test_not_right_variables(a):
     with pytest.raises(TypeError):
-        arithmetic_progression(a=[1], d=2, n=5)
+        arithmetic_progression(a, d = 2, n=5)
 
-def test_d_not_numeric():
+@pytest.mark.parametrize(
+    "d",
+    [
+        [2,4,5],
+        {3,4},
+        {'key':'val'} 
+    ]
+)
+def test_d_not_numeric(d):
     with pytest.raises(TypeError):
-        arithmetic_progression(a=1, d=[2], n=5)
+        arithmetic_progression(a=1, d=d, n=5)
 
-def test_n_not_int():
+@pytest.mark.parametrize(
+    "n",
+    [
+        [2,4,5],
+        {3,4},
+        {'key':'val'},
+        3.2
+    ]
+)
+def test_n_not_int(n):
     with pytest.raises(TypeError):
-        arithmetic_progression(a=1, d=2, n=[5])
+        arithmetic_progression(a=1, d=2, n=n)
 
 def test_negative_terms():
     """Test when n is negative, which should raise a ValueError."""
