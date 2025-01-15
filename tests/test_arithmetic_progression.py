@@ -6,6 +6,10 @@ def test_check_ap_sum_1():
     result = arithmetic_progression(a=2, d=3, n=5, compute_sum=True)
     assert result == 40, f"Expected 25.0, got {result}"
 
+def test_check_ap_sum_fraction():
+    result = arithmetic_progression(a=0.1, d=0.2, n=5, compute_sum=True)
+    assert result == pytest.approx(2.5), f"Expected 2.5, got {result}"
+
 def test_generate_terms():
     """Test generating terms of an arithmetic progression."""
     result = arithmetic_progression(a=1, d=2, n=5)
@@ -29,13 +33,32 @@ def test_zero_terms():
     except ValueError as e:
         assert str(e) == "The number of terms 'n' must be a positive integer."
 
+# def test_negative_terms():
+#     """Test when n is negative, which should raise a ValueError."""
+#     try:
+#         arithmetic_progression(a=1, d=2, n=-5)
+#         assert False, "Expected ValueError, but no exception was raised"
+#     except ValueError as e:
+#         assert str(e) == "The number of terms 'n' must be a positive integer."
+
+def test_a_not_numeric():
+    with pytest.raises(TypeError):
+        arithmetic_progression(a=[1], d=2, n=5)
+
+def test_d_not_numeric():
+    with pytest.raises(TypeError):
+        arithmetic_progression(a=1, d=[2], n=5)
+
+def test_n_not_int():
+    with pytest.raises(TypeError):
+        arithmetic_progression(a=1, d=2, n=[5])
+
 def test_negative_terms():
     """Test when n is negative, which should raise a ValueError."""
-    try:
+    with pytest.raises(ValueError) as err:
         arithmetic_progression(a=1, d=2, n=-5)
-        assert False, "Expected ValueError, but no exception was raised"
-    except ValueError as e:
-        assert str(e) == "The number of terms 'n' must be a positive integer."
+    
+    assert "The number of terms 'n' must be a positive integer." in str(err.value)
 
 def test_no_flags():
     """Test the else branch when no flags are set."""
