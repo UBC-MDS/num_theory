@@ -20,7 +20,7 @@ def test_get_primes_small():
     x = 1
     expected = []
     actual = get_primes(x)
-    assert expected == actual, "Given 0, should return an empty list"
+    assert expected == actual, "Given 1, should return an empty list"
 
 def test_get_primes_fraction():
     """Testing edge case where x is a fraction"""
@@ -67,5 +67,6 @@ def test_get_primes_string():
     ]
 )
 def test_get_primes_string_bad_inputs(x):
+    """Testing edge cases for bad inputs"""
     with pytest.raises(TypeError):
         get_primes(x)
