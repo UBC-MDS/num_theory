@@ -1,22 +1,61 @@
 # Number Theory
 
-This package provides a set of basic number theory utilities that ease the solution of Project Euler and other computational problems. It includes prime generation, prime factorization, and arithmetic progression handling. The utilities herein are implemented for efficiency, having ease of use in mind. This makes the package very useful for both mathematicians and competitive programmers.
+A high-performance Python package for number theory operations, optimized for Project Euler and computational mathematics problems.
+
+## Features
+
+- Fast prime number generation and primality testing
+- Efficient prime factorization
+- Arithmetic progression calculations
+- Optimized for computational challenges and competitive programming
+- Simple, intuitive API design
 
 ## Installation
 
 ```bash
-$ pip install num_theory
+pip install num_theory
 ```
 
 ## Usage
 
-get_prime_list_under_n(n): Generates all prime numbers less than n using an efficient algorithm. Useful for operations requiring precomputed prime numbers.
+### Prime Numbers
 
-prime_factorization(n): Computes the prime factorization of a number, returning a list of tuples where each tuple contains a prime factor and its power.
+```python
+from num_theory import get_prime_list_under_n, is_prime, prime_factorization
 
-arithmetic_progression(a, d, n, compute_sum=False, nth_term=False): Generate terms of an arithmetic progression (AP), compute the nth term, or calculate the sum of the first n terms.
+# Generate all primes under 100
+primes = get_prime_list_under_n(100)
 
-is_prime(n): Checks if a number is prime using a streamlined algorithm optimized for computational challenges.
+# Check if a number is prime
+is_prime(997)  # Returns True
+
+# Get prime factorization
+factors = prime_factorization(84)  # Returns [(2, 2), (3, 1), (7, 1)]
+```
+
+### Arithmetic Progressions
+
+```python
+from num_theory import arithmetic_progression
+
+# Generate first 5 terms of AP with a=2, d=3
+terms = arithmetic_progression(a=2, d=3, n=5)  # [2, 5, 8, 11, 14]
+
+# Calculate sum of first 10 terms
+sum_ap = arithmetic_progression(a=2, d=3, n=10, compute_sum=True)
+
+# Find the 100th term
+nth_term = arithmetic_progression(a=2, d=3, n=100, nth_term=True)
+```
+
+## Key Functions
+
+| Function | Description | Example |
+|----------|-------------|---------|
+| `get_prime_list_under_n(n)` | Generates all primes less than n | `get_prime_list_under_n(10)` returns `[2, 3, 5, 7]` |
+| `prime_factorization(n)` | Returns prime factors with their powers | `prime_factorization(12)` returns `[(2, 2), (3, 1)]` |
+| `arithmetic_progression(a, d, n, ...)` | Handles arithmetic progression operations | See examples above |
+| `is_prime(n)` | Tests primality efficiently | `is_prime(17)` returns `True` |
 
 ### Relevance in the Python Ecosystem
 
@@ -30,23 +69,30 @@ Related Packages:
 
 • primesieve: A highly efficient library for prime generation. This package provides similar functionalities.
 
-## Contributors
+## Comparison with Other Libraries
 
-1. Tingting Chen
-2. Dhruv Garg
-3. Dominic Lam
-4. Thamer Aldawood
+| Feature | num_theory | SymPy | NumPy | primesieve |
+|---------|------------|-------|-------|------------|
+| Focus | Number Theory | Symbolic Math | Numerical Computing | Prime Generation |
+| Optimization | Project Euler | General Math | General Purpose | Prime Numbers |
+| Learning Curve | Simple | Steep | Moderate | Simple |
+| Speed | Fast | Moderate | Fast | Very Fast |
 
 ## Contributing
 
-Interested in contributing? Check out the contributing guidelines. Please note that this project is released with a Code of Conduct. By contributing to this project, you agree to abide by its terms.
+Interested in contributing? Check out the [contributing guidelines](CONTRIBUTING.md) . Please note that this project is released with a [Code of Conduct](CONDUCT.md). By contributing to this project, you agree to abide by its terms.
+
+## Authors
+
+- Dhruv Garg
+- Dominic Lam
+- Thamer Aldawood
+- Tingting Chen
 
 ## License
 
-`num_theory` was created by Tingting Chen, Dhruv Garg, Dominic Lam, Thamer Aldawood. It is licensed under the terms of the MIT license.
-
+`num_theory` was created by Dhruv Garg, Dominic Lam, Thamer Aldawood, Tingting Chen. It is licensed under the terms of the MIT license - see [LICENSE](LICENSE) for details.
 
 ## Credits
 
 `num_theory` was created with [`cookiecutter`](https://cookiecutter.readthedocs.io/en/latest/) and the `py-pkgs-cookiecutter` [template](https://github.com/py-pkgs/py-pkgs-cookiecutter).
-
