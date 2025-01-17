@@ -69,10 +69,18 @@ Related Packages:
 
 • primesieve: A highly efficient library for prime generation. This package provides similar functionalities.
 
+## Comparison with Other Libraries
+
+| Feature | num_theory | SymPy | NumPy | primesieve |
+|---------|------------|-------|-------|------------|
+| Focus | Number Theory | Symbolic Math | Numerical Computing | Prime Generation |
+| Optimization | Project Euler | General Math | General Purpose | Prime Numbers |
+| Learning Curve | Simple | Steep | Moderate | Simple |
+| Speed | Fast | Moderate | Fast | Very Fast |
 
 ## Contributing
 
-Interested in contributing? Check out the [contributing guidelines](CONTRIBUTING.md) . Please note that this project is released with a [Code of Conduct](CODE_OF_CONDUCT.md). By contributing to this project, you agree to abide by its terms.
+Interested in contributing? Check out the [contributing guidelines](CONTRIBUTING.md) . Please note that this project is released with a [Code of Conduct](CONDUCT.md). By contributing to this project, you agree to abide by its terms.
 
 ## Authors
 
