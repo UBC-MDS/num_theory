@@ -7,14 +7,15 @@ license = "MIT"
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = ">=3.9"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.3.4"
 jupyter = "^1.1.1"
-myst-nb = "^1.1.2"
+myst-nb = {version = "^1.1.2", python = "^3.9"}
 sphinx-autoapi = "^3.4.0"
 sphinx-rtd-theme = "^3.0.2"
+pytest-cov = "^6.0.0"
 
 [tool.semantic_release]
 version_toml = [
