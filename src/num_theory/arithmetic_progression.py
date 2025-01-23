@@ -25,15 +25,12 @@ def arithmetic_progression(a, d, n, compute_sum=False, nth_term=False):
 
     Examples
     --------
-    Generate the first 5 terms of an AP with first term 2 and common difference 3:
     >>> arithmetic_progression(a=2, d=3, n=5)
     [2, 5, 8, 11, 14]
 
-    Compute the sum of the first 5 terms of the AP:
     >>> arithmetic_progression(a=2, d=3, n=5, compute_sum=True)
     40.0
 
-    Find the 5th term of the AP:
     >>> arithmetic_progression(a=2, d=3, n=5, nth_term=True)
     14
 
