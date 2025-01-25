@@ -1,5 +1,7 @@
 # Number Theory
 [![Documentation Status](https://readthedocs.org/projects/num-theory/badge/?version=latest)](https://num-theory.readthedocs.io/en/latest/?badge=latest)
+[![codecov](https://codecov.io/gh/UBC-MDS/num_theory/graph/badge.svg?token=D83Q1sJfPf)](https://codecov.io/gh/UBC-MDS/num_theory)
+
 A high-performance Python package for number theory operations, optimized for Project Euler and computational mathematics problems.
 
 ## Features
