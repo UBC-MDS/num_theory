@@ -65,11 +65,9 @@ This package complements existing Python libraries by offering a targeted collec
 
 Related Packages:
 
-• SymPy: This does provide some symbolic mathematics, including some number theory, but isn't optimized for the computational challenges of advanced number theory.
-
-• NumPy: The general-purpose library for numerical computations, but not specialized in number theory.
-
-• primesieve: A highly efficient library for prime generation. This package provides similar functionalities.
+- SymPy: This does provide some symbolic mathematics, including some number theory, but isn't optimized for the computational challenges of advanced number theory.
+- NumPy: The general-purpose library for numerical computations, but not specialized in number theory.
+- primesieve: A highly efficient library for prime generation. This package provides similar functionalities.
 
 ## Comparison with Other Libraries
 
