@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v0.2.0 (2025-01-30)
+
+### Features
+
+- Fixed version
+  ([`135f7aa`](https://github.com/UBC-MDS/num_theory/commit/135f7aac9ba75cd2a925a18f189a22f95f05c948))
+
+
 ## v0.1.0 (2025-01-29)
 
 ### Features

@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "num_theory_euler_problems"
 packages = [{include = "num_theory", from = "src"}]
-version = "0.1.0"
+version = "0.2.0"
 description = "Implements different number theory functions"
 authors = ["Calista Chen, Dhruv Garg, Dominic Lam, Thamer Aldawood"]
 license = "MIT"
