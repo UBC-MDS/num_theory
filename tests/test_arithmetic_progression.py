@@ -33,14 +33,6 @@ def test_zero_terms():
     except ValueError as e:
         assert str(e) == "The number of terms 'n' must be a positive integer."
 
-# def test_negative_terms():
-#     """Test when n is negative, which should raise a ValueError."""
-#     try:
-#         arithmetic_progression(a=1, d=2, n=-5)
-#         assert False, "Expected ValueError, but no exception was raised"
-#     except ValueError as e:
-#         assert str(e) == "The number of terms 'n' must be a positive integer."
-
 @pytest.mark.parametrize(
     "a",
     [
