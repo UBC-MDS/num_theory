@@ -78,7 +78,7 @@ Related Packages:
 | Focus | Number Theory | Symbolic Math | Numerical Computing | Prime Generation |
 | Optimization | Project Euler | General Math | General Purpose | Prime Numbers |
 | Learning Curve | Simple | Steep | Moderate | Simple |
-| Speed | Fast | Moderate | Fast | Very Fast |
+| Speed | Fast(10-100ms) | Moderate(>100ms) | Fast(10-100ms) | Very Fast(<10ms) |
 
 ## Contributing
 
