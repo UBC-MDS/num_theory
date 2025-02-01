@@ -6,7 +6,11 @@
 [![Repo Status](https://img.shields.io/badge/repo%20status-Active-brightgreen)](https://github.com/UBC-MDS/num_theory) 
 ![PyPI](https://img.shields.io/pypi/v/num-theory-euler-problems?color=blue&label=PyPI)
 
-A high-performance Python package for number theory operations, optimized for Project Euler and computational mathematics problems.  From prime factorization to generating arithmetic progressions, the num_theory package is a versatile tool for students, researchers, and enthusiasts alike. It can also serve as a utility for developing solutions to Project Euler problems.
+A high-performance Python package for number theory operations, optimized for Project Euler and computational mathematics problems.  From **prime factorization** to generating **arithmetic progressions**, the num_theory package is a versatile tool for students, researchers, and enthusiasts alike. It can also serve as a utility for developing solutions to Project Euler problems.
+
+[**Project Euler**]([url](https://projecteuler.net/)) is a series of challenging mathematical/computer programming problems that will require more than just mathematical insights to solve. Although mathematics will help you arrive at elegant and efficient methods, the use of a computer and programming skills will be required to solve most problems.
+
+Although there are many other packages that share similar functionalities to ours, it can take considerable time and effort to find all the utilities you need to solve Project Euler problems. This creates a **need** for a package that consolidates those utilities conveniently in a simple, efficient, well documented, and easy to use package. num_theory fulfils this need.
 
 ## Features
 
