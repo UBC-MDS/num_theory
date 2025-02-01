@@ -11,7 +11,7 @@ A high-performance Python package for number theory operations, optimized for Pr
 - Efficient prime factorization
 - Arithmetic progression calculations
 - Optimized for computational challenges and competitive programming
-- Simple, intuitive API design
+- Simple, intuitive API design (easy-to-use function calls with clear parameters and outputs)
 
 ## Installation
 
