@@ -6,13 +6,11 @@
 [![Repo Status](https://img.shields.io/badge/repo%20status-Active-brightgreen)](https://github.com/UBC-MDS/num_theory) 
 ![PyPI](https://img.shields.io/pypi/v/num-theory-euler-problems?color=blue&label=PyPI)
 
-
 A high-performance Python package for number theory operations, optimized for Project Euler and computational mathematics problems.  From **prime factorization** to generating **arithmetic progressions**, the num_theory package is a versatile tool for students, researchers, and enthusiasts alike. It can also serve as a utility for developing solutions to Project Euler problems.
 
 [**Project Euler**]([url](https://projecteuler.net/)) is a series of challenging mathematical/computer programming problems that will require more than just mathematical insights to solve. Although mathematics will help you arrive at elegant and efficient methods, the use of a computer and programming skills will be required to solve most problems.
 
 Although there are many other packages that share similar functionalities to ours, it can take considerable time and effort to find all the utilities you need to solve Project Euler problems. This creates a **need** for a package that consolidates those utilities conveniently in a simple, efficient, well documented, and easy to use package. num_theory fulfils this need.
-
 
 ## Features
 
@@ -20,7 +18,7 @@ Although there are many other packages that share similar functionalities to our
 - Efficient prime factorization
 - Arithmetic progression calculations
 - Optimized for computational challenges and competitive programming
-- Simple, intuitive API design
+- Simple, intuitive API design (easy-to-use function calls with clear parameters and outputs)
 
 ## Installation
 
@@ -80,14 +78,15 @@ print(sixth_month_savings)
 
 | Function | Description | Example |
 |----------|-------------|---------|
-| `get_prime_list_under_n(n)` | Generates all primes less than n | `get_prime_list_under_n(10)` returns `[2, 3, 5, 7]` |
+| `get_primes(n)` | Generates all primes less than n | `get_primes(10)` returns `[2, 3, 5, 7]` |
 | `prime_factorization(n)` | Returns prime factors with their powers | `prime_factorization(12)` returns `[(2, 2), (3, 1)]` |
-| `arithmetic_progression(a, d, n, ...)` | Handles arithmetic progression operations | See examples above |
+| `arithmetic_progression(a, d, n, ...)` | Handles arithmetic progression operations | `arithmetic_progression(a=2, d=3, n=5)` returns `[2, 5, 8, 11, 14]` |
 | `is_prime(n)` | Tests primality efficiently | `is_prime(17)` returns `True` |
 
 ### Relevance in the Python Ecosystem
 
-This package complements existing Python libraries by offering a targeted collection of number theory utilities specifically for solving Project Euler problems.
+This package complements existing Python libraries by offering a targeted collection of number theory utilities specifically for solving Project Euler problems.  
+Project Euler is a collection of challenging mathematical and computational problems designed to be solved with programming. The problems emphasize number theory, combinatorics, and algorithmic efficiency, making them popular among math and coding enthusiasts. While some problems can be solved with pen and paper, most require writing efficient code to handle large inputs. It's widely used for sharpening problem-solving skills and learning algorithm optimization.
 
 Related Packages:
 
@@ -102,7 +101,7 @@ Related Packages:
 | Focus | Number Theory | Symbolic Math | Numerical Computing | Prime Generation |
 | Optimization | Project Euler | General Math | General Purpose | Prime Numbers |
 | Learning Curve | Simple | Steep | Moderate | Simple |
-| Speed | Fast | Moderate | Fast | Very Fast |
+| Speed | Fast(10-100ms) | Moderate(>100ms) | Fast(10-100ms) | Very Fast(<10ms) |
 
 ## Contributing
 
