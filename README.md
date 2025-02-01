@@ -57,7 +57,7 @@ nth_term = arithmetic_progression(a=2, d=3, n=100, nth_term=True)
 |----------|-------------|---------|
 | `get_primes(n)` | Generates all primes less than n | `get_primes(10)` returns `[2, 3, 5, 7]` |
 | `prime_factorization(n)` | Returns prime factors with their powers | `prime_factorization(12)` returns `[(2, 2), (3, 1)]` |
-| `arithmetic_progression(a, d, n, ...)` | Handles arithmetic progression operations | See examples above |
+| `arithmetic_progression(a, d, n, ...)` | Handles arithmetic progression operations | `arithmetic_progression(a=2, d=3, n=5)` returns `[2, 5, 8, 11, 14]` |
 | `is_prime(n)` | Tests primality efficiently | `is_prime(17)` returns `True` |
 
 ### Relevance in the Python Ecosystem
