@@ -4,7 +4,7 @@
 [![ci-cd](https://github.com/UBC-MDS/num_theory/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/UBC-MDS/num_theory/actions/workflows/ci-cd.yml)
 ![Python Version](https://img.shields.io/badge/python-3.9%20%7C%203.10%20%7C%203.11-blue.svg)
 [![Repo Status](https://img.shields.io/badge/repo%20status-Active-brightgreen)](https://github.com/UBC-MDS/num_theory) 
-![PyPI](https://img.shields.io/pypi/v/num_theory?color=blue&label=PyPI)
+![PyPI](https://img.shields.io/pypi/v/num-theory-euler-problems?color=blue&label=PyPI)
 
 
 A high-performance Python package for number theory operations, optimized for Project Euler and computational mathematics problems.
