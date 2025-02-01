@@ -2,9 +2,9 @@
 [![Documentation Status](https://readthedocs.org/projects/num-theory/badge/?version=latest)](https://num-theory.readthedocs.io/en/latest/?badge=latest)
 [![codecov](https://codecov.io/gh/UBC-MDS/num_theory/graph/badge.svg?token=D83Q1sJfPf)](https://codecov.io/gh/UBC-MDS/num_theory)
 [![ci-cd](https://github.com/UBC-MDS/num_theory/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/UBC-MDS/num_theory/actions/workflows/ci-cd.yml)
-![Python Version](https://img.shields.io/badge/python-3.9%20%7C%203.10%20%7C%203.11-blue.svg)
+[![Python Version](https://img.shields.io/badge/python-3.9%20%7C%203.10%20%7C%203.11-blue.svg)](https://www.python.org/downloads/)
 [![Repo Status](https://img.shields.io/badge/repo%20status-Active-brightgreen)](https://github.com/UBC-MDS/num_theory) 
-![PyPI](https://img.shields.io/pypi/v/num-theory-euler-problems?color=blue&label=PyPI)
+[![PyPI](https://img.shields.io/pypi/v/num-theory-euler-problems?color=blue&label=PyPI)](https://pypi.org/project/num-theory-euler-problems/)
 
 A high-performance Python package for number theory operations, optimized for Project Euler and computational mathematics problems.  From **prime factorization** to generating **arithmetic progressions**, the num_theory package is a versatile tool for students, researchers, and enthusiasts alike. It can also serve as a utility for developing solutions to Project Euler problems.
 
