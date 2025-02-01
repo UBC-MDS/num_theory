@@ -28,10 +28,10 @@ pip install num_theory_euler_problems
 ### Prime Numbers
 
 ```python
-from num_theory import get_prime_list_under_n, is_prime, prime_factorization
+from num_theory import get_primes, is_prime, prime_factorization
 
 # Generate all primes under 100
-primes = get_prime_list_under_n(100)
+primes = get_primes(100)
 
 # Check if a number is prime
 is_prime(997)  # Returns True
