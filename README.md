@@ -3,7 +3,7 @@
 [![codecov](https://codecov.io/gh/UBC-MDS/num_theory/graph/badge.svg?token=D83Q1sJfPf)](https://codecov.io/gh/UBC-MDS/num_theory)
 [![ci-cd](https://github.com/UBC-MDS/num_theory/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/UBC-MDS/num_theory/actions/workflows/ci-cd.yml)
 
-A high-performance Python package for number theory operations, optimized for Project Euler and computational mathematics problems.
+A high-performance Python package for number theory operations, optimized for Project Euler and computational mathematics problems. From prime factorization to generating arithmetic progressions, the `num_theory` package is a versatile tool for students, researchers, and enthusiasts alike.
 
 ## Features
 
