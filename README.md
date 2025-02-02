@@ -86,7 +86,7 @@ print(sixth_month_savings)
 ### Relevance in the Python Ecosystem
 
 This package complements existing Python libraries by offering a targeted collection of number theory utilities specifically for solving Project Euler problems.  
-Project Euler is a collection of challenging mathematical and computational problems designed to be solved with programming. The problems emphasize number theory, combinatorics, and algorithmic efficiency, making them popular among math and coding enthusiasts. While some problems can be solved with pen and paper, most require writing efficient code to handle large inputs. It's widely used for sharpening problem-solving skills and learning algorithm optimization.
+Although there are other packages that provide similar functionalities, our package is special in that it consolidates various utility functions in one place to target Project Euler problems specifically.
 
 Related Packages:
 
