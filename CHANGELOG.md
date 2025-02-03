@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v0.2.7 (2025-02-03)
+
+### Bug Fixes
+
+- Feedback addressed by Dominic to add computational example section
+  ([`fe3c5d8`](https://github.com/UBC-MDS/num_theory/commit/fe3c5d8bfec7676f35e769fae64727e235b8b9d3))
+
+
 ## v0.2.6 (2025-02-03)
 
 ### Bug Fixes
