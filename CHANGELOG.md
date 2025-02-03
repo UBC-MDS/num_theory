@@ -1,34 +1,17 @@
 # CHANGELOG
 
-## v0.3.0 (2025-02-02)
 
-### Fix
+## v0.2.1 (2025-02-03)
 
-- Added a clear statement of need in README (Addressed by Dhruv Garg)
-  ([`723af57`](https://github.com/UBC-MDS/num_theory/commit/723af57ddfbec9cac353022ab716854f56c5b973))
-  
-- Added 'Project Euler' description in README (Addressed by Tingting Chen & Thamer Aldawood)
-  ([`213c3da`](https://github.com/UBC-MDS/num_theory/commit/213c3daa9645eee0e895142b037e38be15a20651))
-  ([`f8dcb06`](https://github.com/UBC-MDS/num_theory/commit/f8dcb06deeca5edf58f87935139629cb83c9aefb))
-  ([`cdae46b`](https://github.com/UBC-MDS/num_theory/commit/cdae46bd08da3713206b9c1185d7699c13cad722))
+### Bug Fixes
 
-- Corrected and added some details in README (Addressed by Tingting Chen & Dhruv Garg)
-  ([`5e34057`](https://github.com/UBC-MDS/num_theory/commit/5e340570fd2624f904d12a59d35d591f85b4b6f2))
-  ([`971160c`](https://github.com/UBC-MDS/num_theory/commit/971160c533c93010ec1c09d2373a93131fbff75c))
-  ([`b96fe07`](https://github.com/UBC-MDS/num_theory/commit/b96fe073f0f0c7c4f228cc581567c09f0a2d68ef))
-  ([`ebbf855`](https://github.com/UBC-MDS/num_theory/commit/ebbf855c447ae6a08e3294ae27c4fa97b83719f5))
+- Edit CHANGELOG
+  ([`e8b39a6`](https://github.com/UBC-MDS/num_theory/commit/e8b39a61a1bf7bae6aec3e6246463fbefeedb7ee))
 
-- Added "API design" clarification in README (Addressed by Tingting Chen)
-  ([`95cc4ef`](https://github.com/UBC-MDS/num_theory/commit/95cc4efc438be66b9a993c1d6dddb6767b6bdf26))
+- Edit CHANGELOG
+  ([`fc534ac`](https://github.com/UBC-MDS/num_theory/commit/fc534aca285b7582ffed893d040b007fb2fd2fcd))
 
-- Added badges (Addressed by Dhruv Garg & Thamer Aldawood)
-  ([`39362a8`](https://github.com/UBC-MDS/num_theory/commit/39362a816c9d19851acaad9c1fd4ed1c8e7e19d9))
-  ([`02b6e3b`](https://github.com/UBC-MDS/num_theory/commit/02b6e3b3b1fc0b735ea08bf01e8ce1a71993903d))
 
-- Added functionality for import statement in __init__.py (Addressed by Dhruv Garg)
-  ([`5254286`](https://github.com/UBC-MDS/num_theory/commit/5254286527cbc6c6bd7fecdcb476d3835fa620f3))
-  
-  
 ## v0.2.0 (2025-01-30)
 
 ### Features
