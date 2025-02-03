@@ -83,7 +83,7 @@ print(sixth_month_savings)
 | `arithmetic_progression(a, d, n, ...)` | Handles arithmetic progression operations | `arithmetic_progression(a=2, d=3, n=5)` returns `[2, 5, 8, 11, 14]` |
 | `is_prime(n)` | Tests primality efficiently | `is_prime(17)` returns `True` |
 
-## 🧩 Solving Project Euler Problems with `num_theory`
+## Solving Project Euler Problems with `num_theory`
 The `num_theory` package is designed to efficiently tackle **computational number theory problems**, making it an ideal tool for solving **Project Euler challenges**.
 
 ### **Example 1: Largest Prime Factor (Project Euler Problem 3)**
@@ -100,8 +100,8 @@ largest_prime_factor = factors[-1][0]  # Extract the largest prime
 
 print(largest_prime_factor)  # Output: 6857
 ```
-✅ Using num_theory, we solve this problem in milliseconds.
----
+Using num_theory, we solve this problem in milliseconds.
+
 ### **Example 2: Sum of Primes Below Two Million (Project Euler Problem 10)**
 
 > *Find the sum of all the primes below 2,000,000.*
@@ -115,15 +115,15 @@ sum_of_primes = sum(primes_below_2M)
 
 print(sum_of_primes)  # Output: 142913828922
 ```
-✅ Instead of iterating through numbers manually, get_primes() efficiently generates primes and allows quick summation.
----
+Instead of iterating through numbers manually, get_primes() efficiently generates primes and allows quick summation.
+
 
 ### 🔍 Why Use num_theory for Project Euler?
 
-*✔ Optimized performance* for large numbers
-*✔ Simple function calls* for prime-related problems
-*✔ Built-in utility functions* eliminate redundant coding
-*✔ Speeds up* solving computational math problems
+*✔ Optimized performance* for large numbers  
+*✔ Simple function calls* for prime-related problems  
+*✔ Built-in utility functions* eliminate redundant coding  
+*✔ Speeds up* solving computational math problems  
 
 
 
