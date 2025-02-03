@@ -1,6 +1,20 @@
 # CHANGELOG
 
 
+## v0.2.5 (2025-02-03)
+
+### Bug Fixes
+
+- Update pyproject.toml
+  ([`9fd08ed`](https://github.com/UBC-MDS/num_theory/commit/9fd08edc92fbef32eb1d755cf1d7f768467647ea))
+
+- Update pyproject.toml
+  ([`32244d0`](https://github.com/UBC-MDS/num_theory/commit/32244d0ce75cf7b4cc660d1a250d3b5f32c11aec))
+
+- Update pyproject.toml
+  ([`9b25eac`](https://github.com/UBC-MDS/num_theory/commit/9b25eac16175c97b56994529194aa30484e85d6d))
+
+
 ## v0.2.4 (2025-02-03)
 
 ### Bug Fixes
