@@ -83,7 +83,53 @@ print(sixth_month_savings)
 | `arithmetic_progression(a, d, n, ...)` | Handles arithmetic progression operations | `arithmetic_progression(a=2, d=3, n=5)` returns `[2, 5, 8, 11, 14]` |
 | `is_prime(n)` | Tests primality efficiently | `is_prime(17)` returns `True` |
 
-### Relevance in the Python Ecosystem
+## 🧩 Solving Project Euler Problems with `num_theory`
+The `num_theory` package is designed to efficiently tackle **computational number theory problems**, making it an ideal tool for solving **Project Euler challenges**.
+
+### **Example 1: Largest Prime Factor (Project Euler Problem 3)**
+> *Find the largest prime factor of 600851475143.*
+
+The problem requires prime factorization of a **large number**, which can be computed using `prime_factorization()`.
+
+```python
+from num_theory import prime_factorization
+
+num = 600851475143
+factors = prime_factorization(num)
+largest_prime_factor = factors[-1][0]  # Extract the largest prime
+
+print(largest_prime_factor)  # Output: 6857
+```
+✅ Using num_theory, we solve this problem in milliseconds.
+---
+### **Example 2: Sum of Primes Below Two Million (Project Euler Problem 10)**
+
+> *Find the sum of all the primes below 2,000,000.*
+
+Efficient prime generation is crucial for solving this problem. The get_primes() function allows us to quickly generate all prime numbers up to a given limit.
+```python
+from num_theory import get_primes
+
+primes_below_2M = get_primes(2_000_000)
+sum_of_primes = sum(primes_below_2M)
+
+print(sum_of_primes)  # Output: 142913828922
+```
+✅ Instead of iterating through numbers manually, get_primes() efficiently generates primes and allows quick summation.
+---
+
+### 🔍 Why Use num_theory for Project Euler?
+
+*✔ Optimized performance* for large numbers
+*✔ Simple function calls* for prime-related problems
+*✔ Built-in utility functions* eliminate redundant coding
+*✔ Speeds up* solving computational math problems
+
+
+
+
+
+## Relevance in the Python Ecosystem
 
 This package complements existing Python libraries by offering a targeted collection of number theory utilities specifically for solving Project Euler problems.  
 Although there are other packages that provide similar functionalities, our package is special in that it consolidates various utility functions in one place to target Project Euler problems specifically.
