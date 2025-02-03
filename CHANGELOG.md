@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v0.2.6 (2025-02-03)
+
+### Bug Fixes
+
+- Correct broken links on README
+  ([`621a260`](https://github.com/UBC-MDS/num_theory/commit/621a26079b4887038f55f38357e8ded1da0aec58))
+
+
 ## v0.2.5 (2025-02-03)
 
 ### Bug Fixes
