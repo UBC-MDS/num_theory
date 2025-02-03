@@ -118,7 +118,7 @@ print(sum_of_primes)  # Output: 142913828922
 Instead of iterating through numbers manually, get_primes() efficiently generates primes and allows quick summation.
 
 
-### 🔍 Why Use num_theory for Project Euler?
+### Why Use num_theory for Project Euler?
 
 *✔ Optimized performance* for large numbers  
 *✔ Simple function calls* for prime-related problems  
