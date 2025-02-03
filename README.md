@@ -1,9 +1,16 @@
-# Number Theory
+# num_theory
 [![Documentation Status](https://readthedocs.org/projects/num-theory/badge/?version=latest)](https://num-theory.readthedocs.io/en/latest/?badge=latest)
 [![codecov](https://codecov.io/gh/UBC-MDS/num_theory/graph/badge.svg?token=D83Q1sJfPf)](https://codecov.io/gh/UBC-MDS/num_theory)
 [![ci-cd](https://github.com/UBC-MDS/num_theory/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/UBC-MDS/num_theory/actions/workflows/ci-cd.yml)
+![Python Version](https://img.shields.io/badge/python-3.9%20%7C%203.10%20%7C%203.11-blue.svg)
+[![Repo Status](https://img.shields.io/badge/repo%20status-Active-brightgreen)](https://github.com/UBC-MDS/num_theory) 
+![PyPI](https://img.shields.io/pypi/v/num-theory-euler-problems?color=blue&label=PyPI)
 
-A high-performance Python package for number theory operations, optimized for Project Euler and computational mathematics problems. From prime factorization to generating arithmetic progressions, the `num_theory` package is a versatile tool for students, researchers, and enthusiasts alike.
+A high-performance Python package for number theory operations, optimized for Project Euler and computational mathematics problems.  From **prime factorization** to generating **arithmetic progressions**, the num_theory package is a versatile tool for students, researchers, and enthusiasts alike. It can also serve as a utility for developing solutions to Project Euler problems.
+
+[**Project Euler**]([url](https://projecteuler.net/)) is a series of challenging mathematical/computer programming problems that will require more than just mathematical insights to solve. Although mathematics will help you arrive at elegant and efficient methods, the use of a computer and programming skills will be required to solve most problems.
+
+Although there are many other packages that share similar functionalities to ours, it can take considerable time and effort to find all the utilities you need to solve Project Euler problems. This creates a **need** for a package that consolidates those utilities conveniently in a simple, efficient, well documented, and easy to use package. num_theory fulfils this need.
 
 ## Features
 
@@ -16,7 +23,7 @@ A high-performance Python package for number theory operations, optimized for Pr
 ## Installation
 
 ```bash
-pip install num_theory
+pip install num_theory_euler_problems
 ```
 
 ## Usage
@@ -38,17 +45,33 @@ factors = prime_factorization(84)  # Returns [(2, 2), (3, 1), (7, 1)]
 
 ### Arithmetic Progressions
 
+Real-Life Application: Saving Money with an Arithmetic Progression
+Imagine you want to save money using an increasing savings plan. You start with $50 in the first month, and you decide to increase your savings by $20 each month.
+
+You can use the arithmetic_progression function to calculate:
+
+The amount of money saved each month for 6 months
+The total amount saved after 6 months
+The exact amount saved in the 6th month
+
 ```python
 from num_theory import arithmetic_progression
 
-# Generate first 5 terms of AP with a=2, d=3
-terms = arithmetic_progression(a=2, d=3, n=5)  # [2, 5, 8, 11, 14]
+# 1. Get the savings amount for each month
+monthly_savings = arithmetic_progression(a=50, d=20, n=6)
+print(monthly_savings)
+# Output: [50, 70, 90, 110, 130, 150]
 
-# Calculate sum of first 10 terms
-sum_ap = arithmetic_progression(a=2, d=3, n=10, compute_sum=True)
+# 2. Calculate the total amount saved in 6 months
+total_savings = arithmetic_progression(a=50, d=20, n=6, compute_sum=True)
+print(total_savings)
+# Output: 600.0
 
-# Find the 100th term
-nth_term = arithmetic_progression(a=2, d=3, n=100, nth_term=True)
+# 3. Find the savings amount in the 6th month
+sixth_month_savings = arithmetic_progression(a=50, d=20, n=6, nth_term=True)
+print(sixth_month_savings)
+# Output: 150
+
 ```
 
 ## Key Functions
