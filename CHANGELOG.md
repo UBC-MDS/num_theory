@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v0.2.4 (2025-02-03)
+
+### Bug Fixes
+
+- Feedback addressed by Dominic to correct broken link to CONDUCT.md
+  ([`7bbe3b6`](https://github.com/UBC-MDS/num_theory/commit/7bbe3b666630a1998d96fc0b4147ef383e2e53e5))
+
+
 ## v0.2.3 (2025-02-03)
 
 ### Bug Fixes
